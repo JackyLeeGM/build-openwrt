@@ -30,12 +30,6 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/sbwml/luci-app-alist package/alist
-svn co https://github.com/sbwml/luci-app-openai package/openai
-svn co https://github.com/esirplayground/luci-app-poweroff package/poweroff
-svn co https://github.com/sirpdboy/luci-app-parentcontrol package/parentcontrol
-svn co https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-svn co https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
